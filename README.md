@@ -1,30 +1,15 @@
 # Test Spring Cloud
 
-In this project I want to implement a shopping website<br>
+This project is some samples of SpringBoot and SpringCloud components<br>
 
-<b>Features:</b>
+<h3>Components:</h3>
 
-* A default admin user
-* Register user
-* Add access to users ( admin , readonly )
-* Ban/Unban user
-* Login
-* Logout
-* Category management (CRUD)
-* Good management (CRUD)
-* Order basket (CRUD)
-* Order some goods 
+* <b>admin-products:</b> (springboot:web[rest],jpa[postgres],eureka-client,config-client)<br/>
+* <b>admin-users:</b> (springboot:web[rest],jpa[postgres],eureka-client,config-client)<br/>
+* <b>config-server:</b> (springboot:config-server,eureka-client)<br/>
+* <b>eureka-server:</b> (springboot:eureka-server)<br/>
 
-<b>Components:</b>
+<h3>Tools:</h3>
 
-* Security
-* Web
-* Auto configuration
-* Service discovery (Eureka, Ribbon, Feign)
-* Load balancing
-* API Gateway
-
-<b>Tools:</b>
-
-* Java 19
-* Spring Boot 3.0.0
+* Java 17<br/>
+* Spring Boot 3.0.3<br/>
