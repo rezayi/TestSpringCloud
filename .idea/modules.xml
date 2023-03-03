@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/TestSpringCloudProject.iml" filepath="$PROJECT_DIR$/TestSpringCloudProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/admin-product/admin-product.iml" filepath="$PROJECT_DIR$/admin-product/admin-product.iml" />
       <module fileurl="file://$PROJECT_DIR$/admin-user/admin-user.iml" filepath="$PROJECT_DIR$/admin-user/admin-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
     </modules>
   </component>

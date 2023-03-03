@@ -7,14 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eureka-server" />
+        <module name="config-server" />
         <module name="admin-user" />
         <module name="admin-product" />
+        <module name="eureka-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="admin-product" target="17" />
       <module name="admin-user" target="17" />
+      <module name="config-server" target="17" />
       <module name="eureka-server" target="17" />
       <module name="TestSpringCloudProject" target="1.5" />
     </bytecodeTargetLevel>
@@ -23,6 +25,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="admin-product" options="-parameters" />
       <module name="admin-user" options="-parameters" />
+      <module name="config-server" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
     </option>
   </component>
